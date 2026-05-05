@@ -19,7 +19,7 @@ export default function App() {
           Nuestra Empresa
         </h2>
         <p>
-          RMP Ingeniería Eléctrica Industrial entrega soluciones técnicas 
+          RMP Ingeniería Industrial Eléctrica entrega soluciones técnicas 
           especializadas en el área eléctrica, con enfoque en seguridad, 
           normativa y eficiencia.
         </p>
@@ -42,6 +42,7 @@ export default function App() {
 
         <p>📧 ramirandap26@gmail.com</p>
         <p>📱 +56 9 77082115</p>
+		<p>📱 +56 9 62207892</p>
 
         <a
           href="https://wa.me/56977082115"
