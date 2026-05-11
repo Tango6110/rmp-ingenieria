@@ -4,7 +4,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-900 text-white p-4 fixed w-full top-0 z-50">
+    <nav className="bg-gray-900 text-white p-3 md:p-4 fixed w-full top-0 z-50">
       <div className="flex justify-between items-center">
         <h1 className="font-bold">RMP Ingeniería</h1>
 
