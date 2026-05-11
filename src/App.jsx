@@ -17,7 +17,7 @@ export default function App() {
       <Servicios />
 
       {/* Empresa */}
-      <section id="empresa" className="p-6 md:p-10 max-w-4xl mx-auto">
+      <section id="empresa" className="scroll-mt-24 p-6 md:p-10 max-w-4xl mx-auto">
         <h2 className="text-xl md:text-2xl font-bold mb-4">
           Nuestra Empresa
         </h2>
@@ -30,7 +30,7 @@ export default function App() {
       </section>
 
       {/* Quiénes Somos */}
-      <section id="quienes" className="p-6 md:p-10 max-w-4xl mx-auto">
+     <section id="quienes" className="scroll-mt-24 p-6 md:p-10 max-w-4xl mx-auto">
         <h2 className="text-xl md:text-2xl font-bold mb-4">
           Quiénes Somos
         </h2>
@@ -43,10 +43,7 @@ export default function App() {
       </section>
 
       {/* Contacto */}
-      <section
-        id="contacto"
-        className="bg-gray-100 p-6 md:p-10 text-center"
-      >
+      <section id="contacto" className="scroll-mt-24 bg-gray-100 p-6 md:p-10 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-6">
           Contacto
         </h2>
