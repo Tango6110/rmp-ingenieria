@@ -1,17 +1,19 @@
 export default function Hero() {
   return (
-    <div
-      className="h-[300px] md:h-[450px] bg-cover bg-center flex items-center justify-center mt-16"
-      style={{ backgroundImage: "url('/hero.jpg')" }}
-    >
-      <div className="bg-black/60 p-6 rounded-xl text-center text-white">
-        <h1 className="text-xl md:text-3xl font-bold">
-          RMP Ingeniería Industrial Eléctrica
-        </h1>
-        <p className="mt-2">
-          Soluciones eléctricas industriales
-        </p>
-      </div>
-    </div>
+   <div className="bg-black/70 p-6 md:p-10 rounded-2xl text-center text-white max-w-3xl mx-4">
+  <h1 className="text-3xl md:text-5xl font-bold leading-tight">
+    RMP Ingeniería Industrial Eléctrica
+  </h1>
+
+  <p className="mt-4 text-lg md:text-xl">
+    Soluciones eléctricas industriales con foco en seguridad,
+    normativa y eficiencia operacional.
+  </p>
+
+  <p className="mt-4 text-sm md:text-base text-gray-200">
+    Más de 30 años de experiencia en minería, transmisión,
+    distribución y auditorías técnicas especializadas.
+  </p>
+</div>
   );
 }

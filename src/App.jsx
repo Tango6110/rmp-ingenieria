@@ -2,7 +2,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Servicios from "./components/Servicios";
 import Footer from "./components/Footer";
-
+import Galeria from "./components/Galeria";
+import WhatsAppButton from "./components/WhatsAppButton";
 export default function App() {
   return (
     <>
@@ -15,7 +16,7 @@ export default function App() {
 
       {/* Servicios */}
       <Servicios />
-
+  <Galeria/>
       {/* Empresa */}
       <section id="empresa" className="scroll-mt-32 md:scroll-mt-24 p-6 md:p-10 max-w-4xl mx-auto">
         <h2 className="text-xl md:text-2xl font-bold mb-4">
@@ -28,7 +29,21 @@ export default function App() {
           seguridad, normativa y eficiencia operacional.
         </p>
       </section>
+	
+	<section
+  id="clientes"
+  className="scroll-mt-32 md:scroll-mt-24 p-6 md:p-10 bg-gray-100"
+>
+  <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
+    Clientes y Sectores
+  </h2>
 
+  <p className="max-w-4xl mx-auto text-center text-gray-700">
+    Experiencia desarrollando trabajos para empresas del sector industrial,
+    energético y minero, incluyendo faenas mineras, distribuidoras,
+    transmisoras y proyectos eléctricos especializados.
+  </p>
+</section>
       {/* Quiénes Somos */}
      <section id="quienes" className="scroll-mt-32 md:scroll-mt-24 p-6 md:p-10 max-w-4xl mx-auto">
         <h2 className="text-xl md:text-2xl font-bold mb-4">
@@ -102,7 +117,7 @@ export default function App() {
           Contactar por WhatsApp
         </a>
       </section>
-
+	<WhatsAppButton/>
       <Footer />
     </>
   );
