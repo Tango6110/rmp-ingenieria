@@ -18,9 +18,10 @@ export default function Galeria() {
       </h2>
 
       <p className="text-center max-w-3xl mx-auto mb-8 text-gray-700">
-        Experiencia en terreno en instalaciones eléctricas industriales,
+        Experiencia en campos agrícolas y en faenas mineras de cobre en el norte.
+		en terreno en instalaciones eléctricas industriales,
         auditorías técnicas, sistemas de puesta a tierra y cumplimiento
-        normativo en distintos sectores industriales y mineros.
+        normativo en distintos sectores industriales.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

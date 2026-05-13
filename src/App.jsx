@@ -39,6 +39,8 @@ export default function App() {
   </h2>
 
   <p className="max-w-4xl mx-auto text-center text-gray-700">
+    Nuestros Clientes: Agrícola Koala, Cías. Mineras del
+	Grupo Las Cenizas, Codelco Teniente.
     Experiencia desarrollando trabajos para empresas del sector industrial,
     energético y minero, incluyendo faenas mineras, distribuidoras,
     transmisoras y proyectos eléctricos especializados.
