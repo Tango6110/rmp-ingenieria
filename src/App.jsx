@@ -16,7 +16,74 @@ export default function App() {
 
       {/* Servicios */}
       <Servicios />
+	  <section
+  id="especialidades"
+  className="scroll-mt-32 md:scroll-mt-24 p-6 md:p-10 bg-white"
+>
+  <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
+    Especialidades Técnicas
+  </h2>
+
+  <div className="max-w-5xl mx-auto">
+    <ul className="space-y-4">
+      <li>✔ Auditorías eléctricas industriales bajo normativa SEC.</li>
+
+      <li>✔ Implementación y auditoría de Sistemas SGIIE.</li>
+
+      <li>✔ Estudios y medición de mallas de puesta a tierra.</li>
+
+      <li>✔ Evaluación de riesgos eléctricos según NFPA 70E.</li>
+
+      <li>✔ Elaboración de procedimientos eléctricos seguros.</li>
+
+      <li>✔ Revisión de facturación eléctrica y optimización tarifaria.</li>
+
+      <li>✔ Cumplimiento normativo RIC y RPTD.</li>
+
+      <li>✔ Asesoría para faenas mineras e instalaciones industriales.</li>
+
+      <li>✔ Estudios de protecciones eléctricas industriales.</li>
+
+      <li>✔ Diagnóstico de instalaciones eléctricas existentes.</li>
+    </ul>
+  </div>
+</section>
+
   <Galeria/>
+  <section
+  id="clientes"
+  className="scroll-mt-32 md:scroll-mt-24 p-6 md:p-10 bg-gray-100"
+>
+  <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
+    Sectores Atendidos
+  </h2>
+
+  <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+    <div className="bg-white p-5 rounded-xl shadow">
+      Minería
+    </div>
+
+    <div className="bg-white p-5 rounded-xl shadow">
+      Distribución Eléctrica
+    </div>
+
+    <div className="bg-white p-5 rounded-xl shadow">
+      Transmisión Eléctrica
+    </div>
+
+    <div className="bg-white p-5 rounded-xl shadow">
+      Industria Manufacturera
+    </div>
+
+    <div className="bg-white p-5 rounded-xl shadow">
+      Plantas de Procesos
+    </div>
+
+    <div className="bg-white p-5 rounded-xl shadow">
+      Infraestructura Energética
+    </div>
+  </div>
+</section>
       {/* Empresa */}
       <section id="empresa" className="scroll-mt-32 md:scroll-mt-24 p-6 md:p-10 max-w-4xl mx-auto">
         <h2 className="text-xl md:text-2xl font-bold mb-4">
@@ -58,7 +125,35 @@ export default function App() {
           Superintendencia de Electricidad y Combustibles.
         </p>
       </section>
+<section
+  id="seo"
+  className="scroll-mt-32 md:scroll-mt-24 p-6 md:p-10 bg-gray-50"
+>
+  <div className="max-w-5xl mx-auto">
+    <h2 className="text-2xl md:text-3xl font-bold mb-6">
+      Ingeniería Eléctrica Industrial para Minería e Industria
+    </h2>
 
+    <p className="mb-4">
+      RMP Ingeniería Industrial Eléctrica presta servicios de auditorías
+      eléctricas industriales, evaluación de cumplimiento SEC,
+      implementación SGIIE, estudios de mallas de puesta a tierra,
+      análisis de protecciones eléctricas y revisión de instalaciones
+      eléctricas en Chile.
+    </p>
+
+    <p className="mb-4">
+      Nuestra experiencia incluye trabajos en minería, distribución,
+      transmisión eléctrica e instalaciones industriales de alta exigencia.
+    </p>
+
+    <p>
+      Apoyamos a empresas que requieren cumplir normativas SEC,
+      NFPA 70E, RIC y RPTD, reduciendo riesgos operacionales y mejorando
+      la seguridad eléctrica de sus instalaciones.
+    </p>
+  </div>
+</section>
       {/* Contacto */}
       <section id="contacto" className="scroll-mt-32 md:scroll-mt-24 bg-gray-100 p-6 md:p-10 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-6">
