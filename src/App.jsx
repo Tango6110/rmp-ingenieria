@@ -45,13 +45,45 @@ export default function App() {
       <li>✔ Estudios de protecciones eléctricas industriales.</li>
 
       <li>✔ Diagnóstico de instalaciones eléctricas existentes.</li>
+	  <li>✔ Estudios de cortocircuito y coordinación de protecciones.</li>
+
+		<li>✔ Seguridad eléctrica para faenas mineras.</li>
+
+		<li>✔ Diagnóstico y auditoría de instalaciones eléctricas industriales.</li>
+
+		<li>✔ Cumplimiento normativo SEC para instalaciones eléctricas.</li>
     </ul>
+	<div className="mt-8 text-center">
+  <h3 className="text-xl font-bold mb-4">
+    Servicios Especializados
+  </h3>
+
+  <div className="flex flex-col md:flex-row gap-4 justify-center">
+
+    <button className="bg-blue-600 text-white px-4 py-3 rounded-lg">
+      Auditorías Eléctricas
+    </button>
+
+    <button className="bg-blue-600 text-white px-4 py-3 rounded-lg">
+      Mallas de Puesta a Tierra
+    </button>
+
+    <button className="bg-blue-600 text-white px-4 py-3 rounded-lg">
+      SGIIE
+    </button>
+
+    <button className="bg-blue-600 text-white px-4 py-3 rounded-lg">
+      NFPA 70E
+    </button>
+
+  </div>
+</div>
   </div>
 </section>
 
   <Galeria/>
-  <section
-  id="clientes"
+ <section
+  id="sectores"
   className="scroll-mt-32 md:scroll-mt-24 p-6 md:p-10 bg-gray-100"
 >
   <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
@@ -106,11 +138,10 @@ export default function App() {
   </h2>
 
   <p className="max-w-4xl mx-auto text-center text-gray-700">
-    Nuestros Clientes: Agrícola Koala, Cías. Mineras del
-	Grupo Las Cenizas, Codelco Teniente.
-    Experiencia desarrollando trabajos para empresas del sector industrial,
-    energético y minero, incluyendo faenas mineras, distribuidoras,
-    transmisoras y proyectos eléctricos especializados.
+    Nuestros profesionales han participado en proyectos para
+Agrícola Koala, compañías mineras del Grupo Las Cenizas,
+Codelco División El Teniente y otras organizaciones de los
+sectores industrial, energético y minero.
   </p>
 </section>
       {/* Quiénes Somos */}
@@ -133,7 +164,13 @@ export default function App() {
     <h2 className="text-2xl md:text-3xl font-bold mb-6">
       Ingeniería Eléctrica Industrial para Minería e Industria
     </h2>
-
+<p className="mb-4">
+  Somos especialistas en auditorías eléctricas industriales,
+  implementación SGIIE, cumplimiento SEC, evaluación NFPA 70E,
+  protecciones eléctricas, estudios de cortocircuito y medición
+  de mallas de puesta a tierra para empresas mineras e industriales
+  en Chile.
+</p>
     <p className="mb-4">
       RMP Ingeniería Industrial Eléctrica presta servicios de auditorías
       eléctricas industriales, evaluación de cumplimiento SEC,
@@ -153,6 +190,23 @@ export default function App() {
       la seguridad eléctrica de sus instalaciones.
     </p>
   </div>
+</section>
+<section className="bg-blue-900 text-white p-8 text-center">
+  <h2 className="text-2xl font-bold mb-4">
+    ¿Necesita una auditoría eléctrica o evaluación técnica?
+  </h2>
+
+  <p className="mb-6">
+    Contáctenos para revisar sus instalaciones, optimizar
+    costos eléctricos y verificar cumplimiento normativo.
+  </p>
+
+  <a
+    href="tel:+56977082115"
+    className="bg-white text-blue-900 px-6 py-3 rounded-xl font-bold"
+  >
+    Solicitar Contacto
+  </a>
 </section>
       {/* Contacto */}
       <section id="contacto" className="scroll-mt-32 md:scroll-mt-24 bg-gray-100 p-6 md:p-10 text-center">
