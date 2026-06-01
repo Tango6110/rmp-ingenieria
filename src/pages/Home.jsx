@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
 import Servicios from "../components/Servicios";
 import Footer from "../components/Footer";
@@ -61,31 +62,33 @@ export default function Home() {
 
   <div className="flex flex-col md:flex-row gap-4 justify-center">
 
-    <button className="bg-blue-600 text-white px-4 py-3 rounded-lg">
-     <a href="/auditorias-electricas-industriales">
+    <Link
+  to="/auditorias-electricas-industriales"
+  className="bg-blue-600 text-white px-4 py-3 rounded-lg text-center"
+>
   Auditorías Eléctricas
-</a>
-    </button>
+</Link>
 
-    <button className="bg-blue-600 text-white px-4 py-3 rounded-lg">
-      <a href="/mallas-de-puesta-a-tierra">
+    <Link
+  to="/mallas-de-puesta-a-tierra"
+  className="bg-blue-600 text-white px-4 py-3 rounded-lg text-center"
+>
   Mallas de Puesta a Tierra
-</a>
-    </button>
+</Link>
 
-    <button className="bg-blue-600 text-white px-4 py-3 rounded-lg">
-	 <a href="/sgiie-sec">
- SGIIE
-</a>
-      
-    </button>
+    <Link
+  to="/sgiie-sec"
+  className="bg-blue-600 text-white px-4 py-3 rounded-lg text-center"
+>
+  SGIIE
+</Link>
 
-    <button className="bg-blue-600 text-white px-4 py-3 rounded-lg">
-	 <a href="/nfpa-70e">
-NFPA 70E
-</a>
-      
-    </button>
+    <Link
+  to="/nfpa-70e"
+  className="bg-blue-600 text-white px-4 py-3 rounded-lg text-center"
+>
+  NFPA 70E
+</Link>
 
   </div>
 </div>

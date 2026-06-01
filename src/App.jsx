@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import ScrollTopTop from "./components/ScrollTopTop";
 import Home from "./pages/Home";
 import Auditorias from "./pages/Auditorias";
 import Mallas from "./pages/Mallas";
@@ -9,6 +9,7 @@ import NFPA70E from "./pages/NFPA70E";
 export default function App() {
   return (
     <BrowserRouter>
+		<ScrollTopTop />
       <Routes>
 
         <Route path="/" element={<Home />} />
