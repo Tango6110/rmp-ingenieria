@@ -2,10 +2,20 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import WhatsAppButton from "../components/WhatsAppButton";
 import { Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet-async";
 export default function SGIIE() {
   return (
     <>
+	<Helmet>
+  <title>
+    Implementación SGIIE | RMP Ingeniería
+  </title>
+
+  <meta
+    name="description"
+    content="Implementación y auditorías SGIIE para cumplimiento SEC en instalaciones eléctricas."
+  />
+</Helmet>
       <Navbar />
 
       <div className="pt-24">

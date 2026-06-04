@@ -2,10 +2,20 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import WhatsAppButton from "../components/WhatsAppButton";
 import { Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet-async";
 export default function Mallas() {
   return (
     <>
+	<Helmet>
+  <title>
+    Mallas de Puesta a Tierra | RMP Ingeniería
+  </title>
+
+  <meta
+    name="description"
+    content="Diseño, medición y evaluación de mallas de puesta a tierra para instalaciones industriales y mineras."
+  />
+</Helmet>
       <Navbar />
 
       <div className="pt-24">

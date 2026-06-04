@@ -2,10 +2,21 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import WhatsAppButton from "../components/WhatsAppButton";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 export default function Auditorias() {
   return (
     <>
+	<Helmet>
+        <title>
+          Auditorías Eléctricas Industriales | RMP Ingeniería
+        </title>
+
+        <meta
+          name="description"
+          content="Auditorías eléctricas industriales, cumplimiento SEC, RIC y RPTD para minería e industria."
+        />
+      </Helmet>
       <Navbar />
 
       <div className="pt-24">

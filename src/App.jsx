@@ -8,6 +8,7 @@ import NFPA70E from "./pages/NFPA70E";
 
 export default function App() {
   return (
+
     <BrowserRouter>
 		<ScrollTopTop />
       <Routes>

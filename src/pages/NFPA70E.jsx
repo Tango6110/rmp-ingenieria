@@ -2,10 +2,20 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import WhatsAppButton from "../components/WhatsAppButton";
 import { Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet-async";
 export default function NFPA70E() {
   return (
     <>
+	<Helmet>
+  <title>
+    NFPA 70E Seguridad Eléctrica | RMP Ingeniería
+  </title>
+
+  <meta
+    name="description"
+    content="Evaluación de riesgos eléctricos, Arc Flash y cumplimiento NFPA 70E para minería e industria."
+  />
+</Helmet>
       <Navbar />
 
       <div className="pt-24">
