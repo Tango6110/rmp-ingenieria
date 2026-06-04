@@ -34,7 +34,7 @@ export default function Auditorias() {
         <div className="max-w-6xl mx-auto p-6 md:p-10">
 
           <img
-  src="/cinco.jpg"
+  src="/auditorias.jpg"
   alt="Auditoría eléctrica industrial"
   className="w-full max-h-[450px] object-cover rounded-xl shadow-lg mb-8"
 />

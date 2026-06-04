@@ -35,7 +35,7 @@ export default function SGIIE() {
         <div className="max-w-6xl mx-auto p-6 md:p-10">
 
           <img
-            src="/seis.jpg"
+            src="/sgiie.jpg"
             alt="SGIIE"
             className="w-full max-h-[450px] object-cover rounded-xl shadow-lg mb-8"
           />

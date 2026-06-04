@@ -35,7 +35,7 @@ export default function NFPA70E() {
         <div className="max-w-6xl mx-auto p-6 md:p-10">
 
           <img
-            src="/tres.jpg"
+            src="/nfpa70e.jpg"
             alt="NFPA 70E"
             className="w-full max-h-[450px] object-cover rounded-xl shadow-lg mb-8"
           />

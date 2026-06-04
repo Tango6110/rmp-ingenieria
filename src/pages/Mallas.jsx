@@ -35,7 +35,7 @@ export default function Mallas() {
         <div className="max-w-6xl mx-auto p-6 md:p-10">
 
           <img
-            src="/cuatro.jpg"
+            src="/mallas.jpg"
             alt="Mallas de puesta a tierra"
             className="w-full max-h-[450px] object-cover rounded-xl shadow-lg mb-8"
           />
